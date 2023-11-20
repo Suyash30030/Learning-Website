@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>String Buffer</title>
+</head>
+<body>
+    <div>
+        <h3 class="testdiv1">STRING
+            <span class="testdiv0">BUFFER</span>
+        </h3>
+    </div>
+    <div class="flexcontainer">
+        <div class="f1"><a href="Home.html" target="_blank">HOME</a></div>
+        <div class="f2"><a href="String Method.html" target="_blank">STRING METHOD</a></div>
+        <div class="f3"><a href="String Constructor.html" target="_blank">STRING CONSTRUCTOR</a></div>
+        <div class="f4"><a href="String operations.html" target="_blank">STRING OPERATIONS</a></div>
+    </div>
+    <div>
+        <h3 class="testdiv11">STRING
+            <span class="testdiv10">BUFFER</span>
+            CREATION
+        </h3>
+    </div>
+    <span>
+        <p class="testdiv12">
+            To create a StringBuffer object, you typically use its constructor, which can take an optional initial capacity (i.e., the number of characters the StringBuffer can initially hold).
+        </p>
+        <span class="code1">
+             Example (Java):<br/>
+              java<br/>
+              StringBuffer stringBuffer = new StringBuffer(); 
+              // Creates an empty StringBuffer<br/>
+              StringBuffer stringBufferWithCapacity = new StringBuffer(20); // Creates a StringBuffer with an initial capacity of 20 characters
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv13">APPEND METHOD 
+            <span class="testdiv14">(append(String str)</span>
+        </h3>
+    </div>
+    <span>
+        <p class="testdiv15">
+            The append() method is used to add or concatenate strings to the existing content of a StringBuffer. It effectively grows the buffer as needed.
+        </p>
+        <span class="code2">
+            Example (Java):<br/>
+            java<br/>
+            StringBuffer stringBuffer = new StringBuffer("Hello");<br/>
+            stringBuffer.append(", World!");
+            // stringBuffer now contains "Hello, World!"
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv16">INSERT METHOD
+            <span class="testdiv17">(insert(int offset, String str))</span>
+        </h3>
+    </div>
+    <span>
+        <p class="testdiv18">
+            The insert() method allows you to insert a string at a specified position within the StringBuffer.
+        </p>
+        <span class="code3">
+            Example (Java):<br/>
+            java<br/>
+            StringBuffer stringBuffer = new StringBuffer("Hello");<br/>
+            stringBuffer.insert(5, ", World!");
+            // stringBuffer now contains "Hello, World!"   
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv19">DELETE METHOD
+            <span class="testdiv20">(delete(int startIndex, int endIndex)</span>
+        </h3>
+    </div>
+    <span>
+        <p  class="testdiv21">
+            The delete() method removes a range of characters from the StringBuffer, specified by the startIndex (inclusive) and endIndex (exclusive).
+        </p>
+        <span class="code4"> 
+            Example (Java):<br/>
+            java<br/>
+            StringBuffer stringBuffer = new StringBuffer("Hello, World!");<br/>
+            stringBuffer.delete(5, 12);
+            // stringBuffer now contains "Hello!"
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv22">REPLACE METHOD
+            <span class="testdiv23">(replace(int startIndex, int endIndex, String str))</span>
+        </h3>
+    </div>
+    <span>
+        <p class="testdiv24">
+            The replace() method substitutes a portion of the StringBuffer with a new string, defined by the startIndex and endIndex.
+        </p>
+        <span class="code5">
+            Example (Java):<br?>
+            java<br/>
+            StringBuffer stringBuffer = new StringBuffer("Hello, World!");<br/>
+            stringBuffer.replace(7, 12, "Universe");
+            // stringBuffer now contains "Hello, Universe!"
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv25">LENGTH METHOD
+            <span class="testdiv26">(length())</span>
+        </h3>
+    </div>
+    <span>
+        <p class="testdiv27">
+             The length() method returns the number of characters currently stored in the StringBuffer.
+        </p>
+        <span class="code6">
+            Example (Java):<br/>
+            java<br/>
+            StringBuffer stringBuffer = new StringBuffer("Hello, World!");<br/>
+            int length = stringBuffer.length(); // length is 13
+        </span>
+    </span>
+    <div>
+        <h3 class="testdiv28">TO STRING METHOD
+            <span class="testdiv29">(toString())</span>
+        </h3>
+    </div>
+    <span class="testdiv30">
+        <p>
+            The toString() method converts the StringBuffer to a regular string. This is often used when you need to pass the data as a string to other methods or functions.
+        </p>
+        <span class="code7">
+             Example (Java):<br/>
+              java<br/>
+              StringBuffer stringBuffer = new StringBuffer("Hello, World!");<br/>
+              String result = stringBuffer.toString(); // result is a regular string: "Hello, World!"
+        </span>
+    </span>
+    <div class="testdiv31">
+        <p>
+            The StringBuffer class is particularly useful when you need to build or modify strings iteratively or when efficiency is crucial, as it avoids the overhead of creating new string objects with each modification. It is commonly used in applications where strings are manipulated extensively, such as text editors, parsers, and network communication protocols.
+        </p>
+    </div>
+
+
+
+    
+</body>
+</html>
