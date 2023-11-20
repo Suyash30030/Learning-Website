@@ -1,0 +1,290 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    /* border: 2px solid whitesmoke;  */
+    /* border-top-right-radius:50px; 
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    overflow:auto; 
+    background-color:#115f64;
+
+}
+
+.f1, .f2, .f3,.f4 {
+    display: flex;
+    align-items: center;
+}
+
+.f1 a, .f2 a, .f3 a ,.f4 a{
+    color:#F7F9F9;
+    text-decoration:solid;
+    font-weight: bold;
+}
+.testdiv1{
+    color: #f45725;
+    background-color: transparent;
+    font-family:Rubik,sans-serif;
+    font-weight: 800;
+    margin-bottom:1%;
+    font-size: 35px;
+    margin-top: -0.5%;
+    
+}
+.testdiv0{
+    color:#F7F9F9
+}
+body{
+    background-color:black;
+}
+.testdiv11{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    
+    
+}
+.testdiv10{
+    color:#f45725;
+}
+.testdiv12{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:18px;
+}
+.testdiv13{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family: Rubik,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+.testdiv14{
+    color:#f45725;
+}
+.testdiv15{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:18px;
+}
+.testdiv16{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-style: normal;
+    font-weight: 800;
+    font-size:20px;
+    margin: none;
+}
+.testdiv17{
+    color:#f45725;
+}
+.testdiv18{
+    color:white;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 18px;
+}
+.testdiv19{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.testdiv20{
+    color:#f45725;
+}
+.testdiv21{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.testdiv22{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+.testdiv23{
+    color:#f45725;
+}
+.testdiv24{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.testdiv25{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+.testdiv26{
+    color:#f45725;
+}
+.testdiv27{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+}
+.testdiv28{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+}
+.testdiv29{
+    color:#f45725
+}
+.testdiv30{
+    color:#F7F9F9;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+}
+.testdiv31{
+    color:#F7F9F9;
+    font-family: Rubik,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: .005em;
+    font-size: 18px;
+}
+.code1{
+    display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color:#0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 70%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+border-left: 3px solid #f45725;
+overflow: auto; 
+
+}
+
+.code2{
+display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color: #0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 60%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+overflow: auto;
+border-left: 3px solid #f45725;
+}
+.code3{
+display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color: #0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 60%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+overflow: auto;
+border-left: 3px solid #f45725;
+}
+.code4{
+display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color: #0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 60%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+overflow: auto;
+border-left: 3px solid #f45725;
+}
+.code5{
+display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color: #0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 60%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+overflow: auto;
+border-left: 3px solid #f45725;
+}
+.code6{
+    display: block;
+    white-space: pre-wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F7F9F9;
+    background-color: #0D1117;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 60%;
+    border: 2px solid whitesmoke; 
+    border-radius: 5px; 
+    overflow: auto;
+    border-left: 3px solid #f45725;
+}
+.code7{
+display: block;
+white-space: pre-wrap;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #F7F9F9;
+background-color: #0D1117;
+padding: 10px;
+border-radius: 5px;
+margin-right: 60%;
+border: 2px solid whitesmoke; 
+border-radius: 5px; 
+overflow: auto;
+border-left: 3px solid #f45725;
+font-size: 18px;
+}
