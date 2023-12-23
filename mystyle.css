@@ -256,3 +256,15 @@
     overflow: auto;
     border-left: 3px solid #f45725;
     }
+@media (max-width: 768px) {
+  .flexcontainer {
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: flex-start;
+  }
+
+  .img1 {
+    width: 100%;
+    margin-right: 0;
+  }
+}
